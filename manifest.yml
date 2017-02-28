@@ -1,0 +1,6 @@
+---
+applications: 
+- name: bliex-demo-app
+  mem: 512M
+  buildpack: java_buildpack_offline_new
+  path: target/demo-0.0.1-SNAPSHOT.war
